@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kamerasovellus</string>
+    <string name="take_photo">Ota kuva</string>
+    <string name="open_gallery">Avaa galleria</string>
+</resources>

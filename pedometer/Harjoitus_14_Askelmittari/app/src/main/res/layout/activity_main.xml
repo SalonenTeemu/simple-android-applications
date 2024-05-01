@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:layout_centerInParent="true"
+        app:cpb_background_progressbar_color="#F2F2F2"
+        app:cpb_background_progressbar_width="20dp"
+        app:cpb_progress_max="1000"
+        app:cpb_progressbar_color="#F44336"
+        app:cpb_progressbar_width="15dp"
+        app:cpb_round_border="true" />
+
+    <TextView
+        android:id="@+id/stepsTaken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/stepsMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stepsTaken"
+        android:layout_centerInParent="true"
+        android:text="/10000"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonChangeTarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_toRightOf="@id/floatingActionButton2"
+        android:text="Muuta tavoitetta" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        android:tint="#FDFDFD"
+        app:backgroundTint="#FF9800"
+        app:rippleColor="#FFFFFF"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+
+</RelativeLayout>

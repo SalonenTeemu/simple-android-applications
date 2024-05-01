@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Säätila nyt</string>
+    <string name="label_info">Paikkakunnan %1$s viimeiset viisi lämpötilaa:</string>
+    <string name="label_temperature1">Lämpötila kello %1$s oli %2$.2f astetta</string>
+    <string name="label_temperature2">Lämpötila kello %1$s oli %2$.2f astetta</string>
+    <string name="label_temperature3">Lämpötila kello %1$s oli %2$.2f astetta</string>
+    <string name="label_temperature4">Lämpötila kello %1$s oli %2$.2f astetta</string>
+    <string name="label_temperature5">Lämpötila kello %1$s oli %2$.2f astetta</string>
+</resources>
