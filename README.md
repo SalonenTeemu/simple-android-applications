@@ -1,6 +1,6 @@
 # simple-android-applications
 
-This repository contains some simple Android applications implemented with Java.
+This repository contains some simple Android applications implemented as independent course exercises with Java.
 
 ## check-weather-finland
 
@@ -8,7 +8,7 @@ With this application, you can check the latest temperatures from different Finn
 
 ## gps
 
-With this application, you can check where you are on the map as well as add markers to places you have visited before.
+This application allows you to check where you are on the map as well as add markers to places you have visited before.
 
 ## pedometer
 
